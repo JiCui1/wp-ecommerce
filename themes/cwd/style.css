@@ -151,3 +151,7 @@ footer .site-info {
   background-color: #fa8b40;
   color: white;
 }
+
+.wp-block-page-list {
+  margin-right: 1px;
+}
