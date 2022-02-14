@@ -27,7 +27,8 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-			<?php
+			<img src="assets/img/logo.png">
+			<!-- <?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
@@ -42,7 +43,7 @@
 			if ( $cwd_description || is_customize_preview() ) :
 				?>
 				<p class="site-description"><?php echo $cwd_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
+			<?php endif; ?> -->
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
