@@ -160,3 +160,7 @@ footer .site-info {
   width: 120px;
   height: auto;
 }
+
+.site-description {
+  font-weight: 500;
+}
