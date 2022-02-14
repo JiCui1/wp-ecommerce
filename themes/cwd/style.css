@@ -155,3 +155,8 @@ footer .site-info {
 .wp-block-page-list {
   margin-right: 1px;
 }
+
+.custom-logo {
+  width: 120px;
+  height: auto;
+}
