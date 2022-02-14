@@ -13,16 +13,24 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<h3>Sole Performance</h3>
-			<h5>Quick Links</h5>
-			<ul>
-				<a href="#"><li>Home</li></a>
-				<a href="#"><li>Contact</li></a>
-				<a href="#"><li>About</li></a>
-			</ul>
+			<div class="footer-logo">
+				<?php 
+			the_custom_logo(); ?>
+			</div>
+			<div class="quick-links">
+				<h5>Quick Links</h5>
+				<ul>
+					<a href="#"><li>Home</li></a>
+					<a href="#"><li>Contact</li></a>
+					<a href="#"><li>About</li></a>
+				</ul>
+			</div>
+			<div class="contact-info">
+
+
 			<h5>Address:</h5>
-			<h6>399 Lakewood St. Belmont, MA 02478</h6>
-			
+				<h6>399 Lakewood St. Belmont, MA 02478</h6>
+			</div>
 			<!-- <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'cwd' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
