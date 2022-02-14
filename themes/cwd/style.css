@@ -67,7 +67,16 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-/* @import url("https://use.typekit.net/hvr8fqc.css"); */
+@import url("https://use.typekit.net/hvr8fqc.css");
 body {
   /* background-color: pink; */
+  font-family: acumin-pro;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }

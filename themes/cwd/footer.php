@@ -13,7 +13,16 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<h3>footer</h3>
+			<h3>Sole Performance</h3>
+			<h5>Quick Links</h5>
+			<ul>
+				<a href="#"><li>Home</li></a>
+				<a href="#"><li>Contact</li></a>
+				<a href="#"><li>About</li></a>
+			</ul>
+			<h5>Address:</h5>
+			<h6>399 Lakewood St. Belmont, MA 02478</h6>
+			
 			<!-- <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'cwd' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
