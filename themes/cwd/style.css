@@ -128,6 +128,26 @@ footer .site-info {
   text-align: center;
   font-style: italic;
 }
+
+.wp-block-quote {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
 .wp-block-quote cite {
-  text-align: center;
+  float: right;
+}
+
+.wp-block-media-text {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wp-block-calendar table th {
+  background-color: #fa8b40;
+  color: white;
 }
