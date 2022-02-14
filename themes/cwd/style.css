@@ -79,6 +79,9 @@ li {
 
 a {
   text-decoration: none;
+
+  color: black;
+  font-weight: 500;
 }
 
 h1,
@@ -87,13 +90,34 @@ h2 {
 }
 
 h3 {
-  font-weight: 300;
+  font-weight: 500;
 }
 
 p {
   font-weight: 100;
 }
 
-footer .site-info {
+.menu ul {
   display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+/* .menu ul a {
+} */
+
+.site-header {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .site-info {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }

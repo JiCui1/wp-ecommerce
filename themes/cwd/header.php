@@ -54,5 +54,9 @@
 				)
 			);
 			?>
-		</nav><!-- #site-navigation -->
+		</nav>
+		<!-- #site-navigation -->
+		<div class="shop">
+			<a href="#"><h3>Shop</h3></a>
+		</div>
 	</header><!-- #masthead -->

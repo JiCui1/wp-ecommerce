@@ -27,9 +27,8 @@
 			</div>
 			<div class="contact-info">
 
-
-			<h5>Address:</h5>
-				<h6>399 Lakewood St. Belmont, MA 02478</h6>
+				<h5>Address:</h5>
+				<h5>399 Lakewood St. Belmont, MA 02478</h5>
 			</div>
 			<!-- <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'cwd' ) ); ?>">
 				<?php
