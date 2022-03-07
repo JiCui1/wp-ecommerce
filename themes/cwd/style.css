@@ -210,7 +210,8 @@ footer .site-info {
   border-color: #fa8b40;
 }
 
-.submit {
+.submit,
+#nf-field-8 {
   padding: 1rem 3rem;
   border: none;
   background-color: #fa8b40;
@@ -234,4 +235,9 @@ footer .site-info {
 .quick-links .menu {
   flex-direction: column !important;
   width: auto !important;
+}
+
+.post-17 {
+  width: 900px;
+  margin: auto;
 }
