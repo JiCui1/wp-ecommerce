@@ -218,7 +218,8 @@ footer .site-info {
   color: white;
 }
 
-.product_type_simple {
+.product_type_simple,
+.single_add_to_cart_button {
   padding: 1rem 3rem !important;
   border: none !important;
   background-color: #fa8b40 !important;
@@ -279,4 +280,16 @@ bdi {
   color: #fa8b40;
   border: 1px solid #fa8b40;
   outline: none;
+}
+
+.product {
+  width: 1200px;
+  margin: auto;
+}
+
+.qty {
+  padding: 1rem;
+  border: 1px solid #fa8b40;
+  color: #fa8b40;
+  margin-right: 5rem;
 }
