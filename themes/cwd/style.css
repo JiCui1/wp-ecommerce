@@ -241,3 +241,7 @@ footer .site-info {
   width: 900px;
   margin: auto;
 }
+
+.nf-element {
+  border-color: #fa8b40 !important;
+}
