@@ -294,12 +294,14 @@ bdi {
   margin-right: 5rem;
 }
 
-#post-63 {
+#post-63,
+#post-64 {
   width: 1200px;
   margin: auto;
 }
 
-.checkout-button {
+.checkout-button,
+.button {
   background-color: #fa8b40 !important;
   color: white !important;
 }
