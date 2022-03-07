@@ -180,3 +180,26 @@ footer .site-info {
   padding-bottom: 3rem;
   border-bottom: 1px solid black;
 }
+
+.nav-previous {
+  width: 900px;
+  margin: auto;
+}
+
+.comments-area {
+  width: 900px;
+  margin: auto;
+}
+
+.comment-form-comment {
+  display: flex;
+  flex-direction: column;
+}
+
+.required-field-message {
+  float: right;
+}
+
+#comment {
+  border-color: #fa8b40;
+}
