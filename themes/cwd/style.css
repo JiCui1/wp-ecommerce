@@ -298,3 +298,8 @@ bdi {
   width: 1200px;
   margin: auto;
 }
+
+.checkout-button {
+  background-color: #fa8b40 !important;
+  color: white !important;
+}
