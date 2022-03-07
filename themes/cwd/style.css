@@ -254,3 +254,7 @@ footer .site-info {
   width: 1200px;
   margin: auto;
 }
+
+.size-woocommerce_thumbnail {
+  border: 1px solid #fa8b40 !important;
+}
