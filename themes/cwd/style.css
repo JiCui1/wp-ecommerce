@@ -273,3 +273,10 @@ footer .site-info {
 bdi {
   color: #fa8b40 !important;
 }
+
+.orderby {
+  padding: 1rem;
+  color: #fa8b40;
+  border: 1px solid #fa8b40;
+  outline: none;
+}
