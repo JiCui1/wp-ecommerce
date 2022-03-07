@@ -71,6 +71,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 body {
   /* background-color: pink; */
   font-family: acumin-pro;
+  padding: 2rem;
 }
 
 li {
@@ -184,6 +185,7 @@ footer .site-info {
 .nav-previous {
   width: 900px;
   margin: auto;
+  margin-bottom: 4rem;
 }
 
 .comments-area {
@@ -194,12 +196,22 @@ footer .site-info {
 .comment-form-comment {
   display: flex;
   flex-direction: column;
+  color: #fa8b40;
 }
 
 .required-field-message {
   float: right;
+
+  color: #fa8b40;
 }
 
 #comment {
   border-color: #fa8b40;
+}
+
+.submit {
+  padding: 1rem 3rem;
+  border: none;
+  background-color: #fa8b40;
+  color: white;
 }
