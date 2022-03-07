@@ -295,7 +295,8 @@ bdi {
 }
 
 #post-63,
-#post-64 {
+#post-64,
+#post-65 {
   width: 1200px;
   margin: auto;
 }
@@ -304,4 +305,19 @@ bdi {
 .button {
   background-color: #fa8b40 !important;
   color: white !important;
+}
+
+.woocommerce-MyAccount-navigation ul li {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #fa8b40;
+}
+.woocommerce-MyAccount-navigation-link a {
+  color: #fa8b40 !important;
+}
+
+.woocommerce-MyAccount-navigation ul {
+  width: 100px;
+  padding: 1rem;
+  border: 1px solid #fa8b40;
 }
