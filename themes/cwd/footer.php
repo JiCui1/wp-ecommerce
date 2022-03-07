@@ -33,6 +33,10 @@
 
 				<h5>Address:</h5>
 				<h5>399 Lakewood St. Belmont, MA 02478</h5>
+				<h5>Phone:</h5>
+				<h5>645-526-5789</h5>
+				<h5>Email:</h5>
+				<h5>info@soleperformance.com</h5>
 			</div>
 			<!-- <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'cwd' ) ); ?>">
 				<?php
