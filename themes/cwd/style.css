@@ -171,3 +171,12 @@ footer .site-info {
   border: 1px solid black;
   cursor: pointer;
 }
+
+.post {
+  width: 900px;
+  margin: auto;
+}
+
+.entry-content .wp-block-image {
+  margin: auto !important;
+}
