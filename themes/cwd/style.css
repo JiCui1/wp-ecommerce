@@ -245,3 +245,7 @@ footer .site-info {
 .nf-element {
   border-color: #fa8b40 !important;
 }
+
+.nf-form-title {
+  display: none;
+}
