@@ -175,8 +175,8 @@ footer .site-info {
 .post {
   width: 900px;
   margin: auto;
-}
-
-.entry-content .wp-block-image {
-  margin: auto !important;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid black;
 }
