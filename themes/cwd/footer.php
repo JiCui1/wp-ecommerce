@@ -19,11 +19,15 @@
 			</div>
 			<div class="quick-links">
 				<h5>Quick Links</h5>
-				<ul>
-					<a href="#"><li>Home</li></a>
-					<a href="#"><li>Contact</li></a>
-					<a href="#"><li>About</li></a>
-				</ul>
+		
+				<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'primary-menu',
+				)
+			);
+			?>
 			</div>
 			<div class="contact-info">
 

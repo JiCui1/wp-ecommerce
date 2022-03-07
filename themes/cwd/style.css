@@ -221,3 +221,17 @@ footer .site-info {
   display: flex;
   justify-content: space-between;
 }
+.menu {
+  display: flex !important;
+  justify-content: space-between;
+  width: 600px;
+}
+
+#menu-item-93 a {
+  color: #fa8b40;
+}
+
+.quick-links .menu {
+  flex-direction: column !important;
+  width: auto !important;
+}
