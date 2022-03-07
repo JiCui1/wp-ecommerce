@@ -182,7 +182,8 @@ footer .site-info {
   border-bottom: 1px solid black;
 }
 
-.nav-previous {
+.nav-previous,
+.nav-next {
   width: 900px;
   margin: auto;
   margin-bottom: 4rem;
@@ -214,4 +215,9 @@ footer .site-info {
   border: none;
   background-color: #fa8b40;
   color: white;
+}
+
+.entry-footer {
+  display: flex;
+  justify-content: space-between;
 }
