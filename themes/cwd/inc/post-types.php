@@ -1,3 +1,11 @@
+<?php
+/**
+ * Custom template post types for this theme
+ *
+ *
+ * @package e-commerce
+ */
+
 function wpdocs_kantbtrue_init() {
     $labels = array(
         'name'                  => _x( 'Recipes', 'Post type general name', 'recipe' ),
@@ -31,7 +39,7 @@ function wpdocs_kantbtrue_init() {
         'public'             => true,
         'publicly_queryable' => true,
         'show_ui'            => true,
-        'show_in_menu'       => true,
+        'show_in_menu'       => true, 
         'query_var'          => true,
         'rewrite'            => array( 'slug' => 'recipe' ),
         'capability_type'    => 'post',

@@ -154,4 +154,10 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/customizer.php';
 
 
+/**
+ * Custom post type addition
+ */
+require get_template_directory() . '/inc/post-types.php';
+
+
 
