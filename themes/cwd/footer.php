@@ -18,27 +18,30 @@
 				'post_type' => array('event'),
 				'post_status' => 'publish',
 				'post_per_page' => 3,
-
-
-
-
 			);
 
-			$event_query = new WP_Query($event_arg);
+			$event_query = new WP_Query($event_args);
 
 
-			if($event_query -> have_posts()){
-				while($event_query->have_posts()){
-					$event_query->have_post();
-					// echo "<li>" . get_post_title()" . </li>";
-				}
-				wp_reset_postdata();
-			}
-
+			?>
+			<div class="event-post-footer">
+				<?php
+					if($event_query -> have_posts()){
+						echo "there is query";
+						while($event_query->have_posts()){
+							$event_query->has_post();
+							// echo "<li>" . get_post_title()" . </li>";
+							echo the_title();
+							echo the_post_thumbnail();
+							echo the_excerpt();
+						}
+						wp_reset_postdata();
+					}
+				?>
+			</div>
 
 		
 		
-		?>
 
 		<div class="site-info">
 			<div class="footer-logo">
