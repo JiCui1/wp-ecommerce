@@ -12,6 +12,34 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
+
+		<?php
+			$event_args = array(
+				'post_type' => array('event'),
+				'post_status' => 'publish',
+				'post_per_page' => 3,
+
+
+
+
+			);
+
+			$event_query = new WP_Query($event_arg);
+
+
+			if($event_query -> have_posts()){
+				while($event_query->have_posts()){
+					$event_query->have_post();
+					// echo "<li>" . get_post_title()" . </li>";
+				}
+				wp_reset_postdata();
+			}
+
+
+		
+		
+		?>
+
 		<div class="site-info">
 			<div class="footer-logo">
 				<?php 
