@@ -35,6 +35,7 @@
 							echo the_title();
 							echo the_post_thumbnail();
 							echo the_excerpt();
+							echo the_permalink();
 						}
 						wp_reset_postdata();
 					}
