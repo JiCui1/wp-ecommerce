@@ -18,6 +18,7 @@
 				'post_type' => array('event'),
 				'post_status' => 'publish',
 				'post_per_page' => 3,
+				'orderby' => 'rand'
 			);
 
 			$event_query = new WP_Query($event_args);
@@ -29,7 +30,7 @@
 					if($event_query -> have_posts()){
 						echo "there is query";
 						while($event_query->have_posts()){
-							$event_query->has_post();
+							$event_query->the_post();
 							// echo "<li>" . get_post_title()" . </li>";
 							echo the_title();
 							echo the_post_thumbnail();
