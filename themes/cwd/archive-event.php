@@ -26,7 +26,7 @@ get_header();
 			while ( have_posts() ) :
 				the_post();
 
-				echo "this is achive event template";
+				echo "Here are all the events happening for everyone's favorite performance basketball shop";
 
 				/*
 				 * Include the Post-Type-specific template for the content.

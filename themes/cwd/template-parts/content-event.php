@@ -9,13 +9,6 @@
 
 
 
- if ( is_singular('event ') ) {
-	echo "This is content file for single-event";
-}
- else {
-
-	echo "This is content file for archive-event";
-}
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

@@ -16,7 +16,7 @@ get_header();
 		while ( have_posts() ) :
 			the_post();
 
-			echo "this is event single template";
+			echo "Stay up to date with the latest news";
 
 			get_template_part( 'template-parts/content', get_post_type() );
 
