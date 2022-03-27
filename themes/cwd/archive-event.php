@@ -23,10 +23,11 @@ get_header();
 
 			<?php
 			/* Start the Loop */
+
+			echo "Here are all the events happening for everyone's favorite performance basketball shop";
 			while ( have_posts() ) :
 				the_post();
 
-				echo "Here are all the events happening for everyone's favorite performance basketball shop";
 
 				/*
 				 * Include the Post-Type-specific template for the content.
