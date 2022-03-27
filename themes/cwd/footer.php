@@ -54,12 +54,12 @@
 				<h5>Quick Links</h5>
 		
 				<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
+					wp_nav_menu(
+						array(
+							'theme_location' => 'menu-1',
+							'menu_id'        => 'primary-menu',
+						)
+					);
 			?>
 			</div>
 			<div class="contact-info">
