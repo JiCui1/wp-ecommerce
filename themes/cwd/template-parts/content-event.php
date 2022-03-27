@@ -9,7 +9,7 @@
 
 
 
- if ( is_singular('event') ) {
+ if ( is_singular('event ') ) {
 	echo "This is content file for single-event";
 }
  else {
