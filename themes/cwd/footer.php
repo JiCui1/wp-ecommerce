@@ -28,18 +28,28 @@
 			<div class="event-post-footer">
 				<?php
 					if($event_query -> have_posts()){
-						echo "there is query";
+						echo "All Events";
 						while($event_query->have_posts()){
 							$event_query->the_post();
-							// echo "<li>" . get_post_title()" . </li>";
-							echo the_title();
 							echo the_post_thumbnail();
+							// echo "<li>" . get_post_title()" . </li>";
+
+							?>
+
+							<h3><a href="<?php
+							the_permalink(); ?>"> <?php the_title(); ?></a></h3>
+							
+
+							<?php 
+							
 							echo the_excerpt();
-							echo the_permalink();
+							// echo the_permalink();
 						}
 						wp_reset_postdata();
 					}
 				?>
+
+
 			</div>
 
 		
